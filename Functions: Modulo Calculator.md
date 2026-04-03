@@ -12,8 +12,25 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 
+
+def result(a, b):
+
+    print("Modulo:", a % b)
+
+a = int(input("Enter first number: "))
+
+b = int(input("Enter second number: "))
+
+result(a, b)
+
 Add code Here
 
 ## Output
+Enter first number: 10
+
+Enter second number: 3
+
+Modulo: 1
 
 ## Result
+Thus, the Python program to calculate the modulo of two numbers using a function was successfully executed.
